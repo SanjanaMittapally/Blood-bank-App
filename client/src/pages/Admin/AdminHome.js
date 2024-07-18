@@ -19,10 +19,10 @@ const AdminHome = () => {
 
                         <div className="container mt-5 d-flex justify-content-center">
                             <div className="card" style={{ width: '36rem', height: '28rem' }}>
-                                <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765" className="card-img-top" alt="Admin Dashboard" />
+                                <img src="./assets/images/mn-donor.jpg" alt="adminImage" className="card-img-top" />
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Welcome to Admin Dashboard</h5>
-                                    <p className="card-text text-center">Manage donors, blood inventory and hospitals</p>
+                                    <p className="card-text text-center">Manage donors, Organisations and Hospitals</p>
                                     <p className="card-text text-center">.</p>
                                 </div>
                             </div>

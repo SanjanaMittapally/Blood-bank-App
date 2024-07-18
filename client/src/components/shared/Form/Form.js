@@ -41,7 +41,7 @@ const Form = ({ formType, submitBtn, formTitle }) => {
                             Donar
                         </label>
                     </div>
-                    <div className="form-check ms-2">
+                    {formType === 'login' && (<div className="form-check ms-2">
                         <input
                             className="form-check-label"
                             type="radio"
@@ -53,7 +53,7 @@ const Form = ({ formType, submitBtn, formTitle }) => {
                         <label htmlFor='adminRadio' className='form-check-label'>
                             Admin
                         </label>
-                    </div>
+                    </div>)}
                     <div className="form-check ms-2">
                         <input
                             className="form-check-label"
@@ -99,7 +99,7 @@ const Form = ({ formType, submitBtn, formTitle }) => {
                                     <InputType
                                         labelText={'Password'}
                                         labelFor={'forpassword'}
-                                        inputType={'text'}
+                                        inputType={'password'}
                                         name={'password'}
                                         value={password}
                                         onChange={(e) => setPassword(e.target.value)}

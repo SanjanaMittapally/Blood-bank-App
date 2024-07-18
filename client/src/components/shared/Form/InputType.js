@@ -15,11 +15,12 @@ const InputType = ({
                     {labelText}
                 </label>
                 <input
+                    autoComplete='new-password'
                     type={inputType}
                     className="form-control"
                     name={name}
                     value={value}
-                    onChange={onChange}                
+                    onChange={onChange}
                 />
             </div>
         </>
