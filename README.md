@@ -6,23 +6,23 @@ authorized users, including administrators, organizations, donors, and hospitals
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/Blood-bank-App.git
+   git clone https://github.com/SanjanaMittapally/Blood-bank-App.git
    ```
-
 2. **Install Dependencies:**
    - Navigate to the project's main folder and install dependencies.
      ```bash
      npm install
      ```
-   - Navigate to the `frontend` folder and install frontend-related dependencies.
+   - Navigate to the `client` folder and install frontend-related dependencies.
      ```bash
-     cd frontend
+     cd client
      npm install
      ```
 
 3. **Run the App:**
    - Navigate back to the main folder and run the command:
      ```bash
+     cd ..
      npm run dev
      ```
 
